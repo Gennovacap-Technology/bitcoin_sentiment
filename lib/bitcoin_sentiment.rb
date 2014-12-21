@@ -1,8 +1,6 @@
 require 'json'
 require 'net/http'
-require 'uri'
 require 'rss'
-require 'open-uri'
 require 'bigdecimal'
 require 'bigdecimal/util'
 

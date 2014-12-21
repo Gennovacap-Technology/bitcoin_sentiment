@@ -13,7 +13,7 @@ class BitcoinSentiment
     private
     def analyze_keywords(link)
       @word_list.each do |keyword|
-        response = @api.sentiment_targeted('url', link, keyword)
+        response = @api.sentiment_targeted(link, keyword)
         parse_response(response, keyword)
       end
     end

@@ -3,7 +3,7 @@ class BitcoinSentiment
     def fetch
       @feed_list.each do |feed|
         Parser.new(feed).links.each do |link|
-          response = @api.keywords('url', link, { 'sentiment'=>1, 'maxRetrieve' => 100 })
+          response = @api.keywords(link)
           parse_response(response)
         end
       end
