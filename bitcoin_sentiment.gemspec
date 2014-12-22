@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.version = BitcoinSentiment::VERSION
   spec.authors = ['Bruno Santos']
   spec.email = ['brunoasantos2@gmail.com']
-  spec.description = 'Description'
-  spec.summary = 'Summary'
-  spec.homepage = ''
+  spec.description = 'Gem to analyze bitcoin sentiment by keyword'
+  spec.summary = spec.description
+  spec.homepage = 'https://github.com/Gennovacap-Technology/bticoin_sentiment'
   spec.license = 'MIT'
 
   spec.files = `git ls-files -z`.split("\x0")
